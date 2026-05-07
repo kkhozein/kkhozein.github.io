@@ -8,10 +8,10 @@ Trying quite earnestly to edit things and see how they work out. Not too sure wh
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
+{% highlight python %}
+def print_hi(name):
+    print(f"Hi, {name}")
+
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
